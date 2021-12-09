@@ -105,7 +105,7 @@ generate_messages(
 set(USE_GL 1) #USE_GL if we are to use GL with mujoco
 
 if(NOT DEFINED $ENV{MUJOCO_LOCATION})
-	set(MUJOCO_LOCATION $ENV{HOME}/.mujoco/mujoco200_linux)
+	set(MUJOCO_LOCATION $ENV{HOME}/.mujoco/mujoco210)
 else()
 	set(MUJOCO_LOCATION $ENV{MUJOCO_LCOATION})
 endif()
