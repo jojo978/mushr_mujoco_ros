@@ -1,7 +1,7 @@
 <launch>
     <!-- Set to 1 if you want to run the map_server -->
     <arg name="map_server" default="1"/>
-    <arg name="map_file" default="$(find mushr_sim)/maps/real-floor0.yaml" />
+    <!--arg name="map_file" default="$(find mushr_sim)/maps/real-floor0.yaml" /-->
     <arg name="environment" default="one_car" />
 
     <!--include file="$(find mushr_sim)/launch/keyboard_teleop.launch.xml"/-->
