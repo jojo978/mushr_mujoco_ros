@@ -1,5 +1,5 @@
 <!-- TODO -->
-<!-- (1) correct mass/inertial matricies (just weight for now) -->
+<!-- (1) correct mass/inertial matrices (just weight for now) -->
 <mujoco model="mushr_nano">
   <compiler angle="radian" />
   <size njmax="500" nconmax="100"/>

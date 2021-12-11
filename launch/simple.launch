@@ -11,7 +11,7 @@
         <param name="mj_key" value="~/.mujoco/mjkey.txt" />
         <param name="model_file_path" value="$(find mushr_mujoco_ros)/models/$(arg environment).xml" />
         <param name="config_file_path" value="$(find mushr_mujoco_ros)/config/$(arg environment).yaml" />
-        <param name="viz" value="true" />
+        <param name="viz" value="false" />
     </node>
 
     <!-- Launch  map server-->
